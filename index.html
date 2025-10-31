@@ -1,114 +1,221 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Uprire — Estrutura Técnica de Valorização Sustentável</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
-    body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      background-color: #0a0a0a;
-      color: #e4e4e4;
-      line-height: 1.6;
-    }
-    header {
-      text-align: center;
-      padding: 60px 20px 30px;
-      background: radial-gradient(circle at center, #111 0%, #000 100%);
-    }
-    header img {
-      width: 160px;
-      filter: drop-shadow(0 0 8px #00d8ff);
-    }
-    h1 {
-      font-size: 2.5rem;
-      background: linear-gradient(90deg, #00d8ff, #ff2bb0);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      margin-top: 20px;
-    }
-    section {
-      max-width: 950px;
-      margin: auto;
-      padding: 40px 25px;
-    }
-    h2 {
-      font-size: 1.8rem;
-      color: #00d8ff;
-      margin-top: 40px;
-    }
-    p {
-      margin: 15px 0;
-      text-align: justify;
-    }
-    ul {
-      margin-left: 20px;
-    }
-    .highlight {
-      color: #ff2bb0;
-      font-weight: bold;
-    }
-    footer {
-      text-align: center;
-      padding: 40px 20px;
-      border-top: 1px solid #222;
-      color: #888;
-    }
-  </style>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>KUROMINT - Sustainable NFT Marketplace</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#A2EAC4",
+                        "background-light": "#F5F5F5",
+                        "background-dark": "#1A1A1A",
+                        "electric-blue": "#4A90E2",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            font-size: 24px;
+        }
+    </style>
 </head>
-
-<body>
-  <header>
-    <img src="Image_fx - 2025-10-18T222228.774.jpg" alt="Uprire Logo" />
-    <h1>UPRIRE — Estrutura Técnica de Valorização Sustentável</h1>
-  </header>
-
-  <section>
-    <h2>1. Diagnóstico: O Colapso Estrutural do Mercado de NFTs</h2>
-    <p>O modelo vigente baseia-se em coleções isoladas, cada uma dependendo exclusivamente de sua própria comunidade e hype...</p>
-
-    <ul>
-      <li>🔒 Isolamento de valor</li>
-      <li>🧩 Ausência de liquidez sistêmica</li>
-      <li>🕳️ Valorização não sustentada</li>
-      <li>🏦 Economia linear</li>
-      <li>🧠 Falta de propósito econômico</li>
-    </ul>
-
-    <h2>2. A Proposta UPRIRE: Uma Infraestrutura de Valorização Interligada</h2>
-    <p>A <span class="highlight">Uprire</span> é uma infraestrutura NFT desenhada para corrigir o desequilíbrio estrutural do mercado...</p>
-
-    <ul>
-      <li><strong>Interligação Econômica:</strong> 3% para o host/criador e 2% redistribuídos para coleções anteriores.</li>
-      <li><strong>Liquidez Sustentável:</strong> Taxas alimentam pools de liquidez internos.</li>
-      <li><strong>Transparência Total:</strong> Contratos auditáveis e públicos.</li>
-    </ul>
-
-    <h2>3. Arquitetura Técnica</h2>
-    <p>O ecossistema da Uprire opera sobre camadas de blockchain, integração Web3 e redistribuição automatizada...</p>
-
-    <table border="1" cellspacing="0" cellpadding="8" style="margin:auto; border-color:#222;">
-      <tr><th>Camada</th><th>Função</th><th>Tecnologia</th></tr>
-      <tr><td>1</td><td>Blockchain Base</td><td>Solana</td></tr>
-      <tr><td>2</td><td>Bridge Web2/Web3</td><td>UPRIRE SDK</td></tr>
-      <tr><td>3</td><td>Painel e Métricas</td><td>Dashboard Analítico</td></tr>
-      <tr><td>4</td><td>Pools de Liquidez</td><td>Smart Pools</td></tr>
-    </table>
-
-    <h2>4. Modelo Econômico</h2>
-    <p>A <span class="highlight">Uprire</span> baseia-se em redistribuição contínua de valor, garantindo retorno retroativo às coleções anteriores...</p>
-
-    <h2>5. Sustentabilidade e Crescimento</h2>
-    <p>O sistema da <span class="highlight">Uprire</span> valoriza-se com o uso, não com a especulação. Cada nova coleção adiciona liquidez e solidez ao ecossistema.</p>
-
-    <h2>6. Conclusão</h2>
-    <p>A <span class="highlight">Uprire</span> propõe uma revolução técnica no mercado NFT: um modelo deflacionário, sustentável e interligado por design.</p>
-  </section>
-
-  <footer>
-    <p>© 2025 Uprire — Estrutura Técnica de Valorização Sustentável</p>
-  </footer>
-</body>
-</html>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<!-- Wrapper for content -->
+<div class="flex flex-1 justify-center w-full">
+<div class="layout-content-container flex flex-col w-full max-w-6xl px-4 md:px-8 lg:px-10">
+<!-- TopNavBar -->
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap py-4 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm border-b border-gray-200 dark:border-gray-800">
+<div class="flex items-center gap-4">
+<div class="size-8 text-primary">
+<svg fill="currentColor" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 18.4228L42 11.475V34.3663C42 34.7796 41.7457 35.1504 41.3601 35.2992L24 42V18.4228Z" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M24 8.18819L33.4123 11.574L24 15.2071L14.5877 11.574L24 8.18819ZM9 15.8487L21 20.4805V37.6263L9 32.9945V15.8487ZM27 37.6263V20.4805L39 15.8487V32.9945L27 37.6263ZM25.354 2.29885C24.4788 1.98402 23.5212 1.98402 22.646 2.29885L4.98454 8.65208C3.7939 9.08038 3 10.2097 3 11.475V34.3663C3 36.0196 4.01719 37.5026 5.55962 38.098L22.9197 44.7987C23.6149 45.0671 24.3851 45.0671 25.0803 44.7987L42.4404 38.098C43.9828 37.5026 45 36.0196 45 34.3663V11.475C45 10.2097 44.2061 9.08038 43.0155 8.65208L25.354 2.29885Z" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-gray-900 dark:text-white text-xl font-bold leading-tight tracking-[-0.015em]">KUROMINT</h2>
+</div>
+<nav class="hidden lg:flex flex-1 justify-center items-center gap-9">
+<a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal transition-colors" href="#">Marketplace</a>
+<a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal transition-colors" href="#">How It Works</a>
+<a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal transition-colors" href="#">Our Mission</a>
+<a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal transition-colors" href="#">Community</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-gray-900 text-sm font-bold leading-normal tracking-[0.015em] hover:opacity-90 transition-opacity">
+<span class="truncate">Launch App</span>
+</button>
+</div>
+</header>
+<main class="flex flex-col gap-16 md:gap-24 lg:gap-32 py-16 md:py-24">
+<!-- HeroSection -->
+<section class="flex flex-col items-center justify-center text-center gap-8 min-h-[60vh]">
+<div class="absolute inset-0 -z-10 h-full w-full bg-background-light dark:bg-background-dark bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] dark:bg-[radial-gradient(#374151_1px,transparent_1px)] [background-size:16px_16px]"></div>
+<div class="flex flex-col gap-4 text-center items-center max-w-4xl">
+<h1 class="text-gray-900 dark:text-white text-4xl md:text-6xl font-black leading-tight tracking-tighter">
+                                    The Infinite Lifecycle of Digital Assets
+                                </h1>
+<h2 class="text-gray-600 dark:text-gray-300 text-base md:text-lg font-normal leading-normal max-w-2xl">
+                                    The world's first circular NFT market infrastructure, empowering creators and collectors to build a regenerative digital economy.
+                                </h2>
+</div>
+<div class="flex-wrap gap-3 flex justify-center">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-gray-900 text-base font-bold leading-normal tracking-[0.015em] hover:opacity-90 transition-opacity">
+<span class="truncate">Explore Marketplace</span>
+</button>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-white text-base font-bold leading-normal tracking-[0.015em] hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors">
+<span class="truncate">Learn More</span>
+</button>
+</div>
+</section>
+<!-- "How It Works" FeatureSection -->
+<section class="flex flex-col gap-10 @container">
+<div class="flex flex-col gap-4 items-center text-center">
+<h2 class="text-gray-900 dark:text-white tracking-tight text-3xl md:text-4xl font-bold leading-tight">A Simple Path to Sustainability</h2>
+<p class="text-gray-600 dark:text-gray-300 text-base font-normal leading-normal max-w-2xl">Join the circular economy with three easy steps, from creation to reclamation.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="flex flex-1 gap-4 rounded-xl border border-gray-200 dark:border-gray-800 bg-background-light dark:bg-background-dark p-6 flex-col">
+<div class="text-primary"><span class="material-symbols-outlined">eco</span></div>
+<div class="flex flex-col gap-1">
+<h3 class="text-gray-900 dark:text-white text-lg font-bold leading-tight">1. Mint Sustainably</h3>
+<p class="text-gray-600 dark:text-gray-400 text-sm font-normal leading-normal">Create or mint your digital assets on a platform designed for minimal environmental impact.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-4 rounded-xl border border-gray-200 dark:border-gray-800 bg-background-light dark:bg-background-dark p-6 flex-col">
+<div class="text-primary"><span class="material-symbols-outlined">storefront</span></div>
+<div class="flex flex-col gap-1">
+<h3 class="text-gray-900 dark:text-white text-lg font-bold leading-tight">2. Trade with Purpose</h3>
+<p class="text-gray-600 dark:text-gray-400 text-sm font-normal leading-normal">Buy, sell, and collect unique NFTs within a transparent and purposeful marketplace.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-4 rounded-xl border border-gray-200 dark:border-gray-800 bg-background-light dark:bg-background-dark p-6 flex-col">
+<div class="text-primary"><span class="material-symbols-outlined">recycling</span></div>
+<div class="flex flex-col gap-1">
+<h3 class="text-gray-900 dark:text-white text-lg font-bold leading-tight">3. Reclaim Value</h3>
+<p class="text-gray-600 dark:text-gray-400 text-sm font-normal leading-normal">Unlock the end-of-life value of your digital assets through our innovative recycling and reclaiming process.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Featured NFTs Section -->
+<section class="flex flex-col gap-10 @container">
+<div class="flex flex-col gap-2 items-center text-center">
+<h2 class="text-gray-900 dark:text-white tracking-tight text-3xl md:text-4xl font-bold leading-tight">Explore Curated Collections</h2>
+<p class="text-gray-600 dark:text-gray-300 text-base font-normal leading-normal max-w-2xl">Discover unique digital assets from leading creators in the regenerative space.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<div class="group flex flex-col gap-4 rounded-xl border border-gray-200 dark:border-gray-800 bg-background-light dark:bg-gray-900/50 p-4 transition-all hover:shadow-lg hover:-translate-y-1">
+<div class="aspect-square w-full overflow-hidden rounded-lg"><img class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="Abstract glowing crystal NFT" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA307QTa8BhdUiVbK-Po4wYI80BS6_wILCUYv8qnNtjdTWnMDkPX62yWbmabYnwPEtkZVWOHFapadoVUGnlWIurr4usB3zW2voznIWx4M7wX3puceR2nP6fWL5f-bzs8vxlNnOf3PUTd75CFdzF6lfFmkDDE5WMI_J2KqRFVL8jT1gsoaLySJ2wEIooBjD_UD-munyiTI-8x-Fa1AITtcPRDB5enUyQKYTgtE1wTYCzCZfn3kFSpvUQE6kt4wFyIfq05TbaL31l2yie"/></div>
+<div class="flex flex-col gap-1">
+<h3 class="text-gray-900 dark:text-white font-bold">Crystal Ethos #24</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">by CypherArt</p>
+</div>
+</div>
+<div class="group flex flex-col gap-4 rounded-xl border border-gray-200 dark:border-gray-800 bg-background-light dark:bg-gray-900/50 p-4 transition-all hover:shadow-lg hover:-translate-y-1">
+<div class="aspect-square w-full overflow-hidden rounded-lg"><img class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="Surreal floating island NFT" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBipG6YcF4dnam2FpZ-3Rv36zMq5mIDObp4W_yZvi3Xgyc_Y7rOIoEadyEd9vK_2--zQttfgflUthzMkBEc0KiW3sfmIIAIm2xWUkCTej1FE7S5mUEJKmuaPIgxcAgRsBUq-tMqThY-xbl6WzMdcGqgEKZF-wpIDP79erJpSF6WPaKnI888LRbYxiNdEA1N69J1EzmSp4JKwWgzt4YBEpQ59MhNAb0_froWeuU6X0neF3pRTFkluyHIVvnz-onPoeNAFGbBYuyjnthg"/></div>
+<div class="flex flex-col gap-1">
+<h3 class="text-gray-900 dark:text-white font-bold">Aethelred's Realm</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">by EtherScapes</p>
+</div>
+</div>
+<div class="group flex flex-col gap-4 rounded-xl border border-gray-200 dark:border-gray-800 bg-background-light dark:bg-gray-900/50 p-4 transition-all hover:shadow-lg hover:-translate-y-1">
+<div class="aspect-square w-full overflow-hidden rounded-lg"><img class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="Futuristic bio-mechanical NFT" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7zWkY72HWgygMXH8gjn0gyO56zYIiMnkkX0g1FeVzoi1diFVn-NpMbRpMa5ZAGsT-S-Uo9eOONXNQ7hndC7uegzujJvs7dg9GO1WIhWDDti2e7N1FLCAxXIucLgoUAgcarAfL8gMrtwiCoRHrhV1e2qgmn3Nx81DcxW1oRA4pXx5mXiOwQnx8hMiOZLdjkUdMdd5eUSlHQeGnYPEdeZGoO1K9_qkVWy8SddPr90bvGjF5ea2d3kDIsxTM5cGOGB7flxoYI1-NR751"/></div>
+<div class="flex flex-col gap-1">
+<h3 class="text-gray-900 dark:text-white font-bold">Bio-Synth #07</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">by FutureForge</p>
+</div>
+</div>
+<div class="group flex flex-col gap-4 rounded-xl border border-gray-200 dark:border-gray-800 bg-background-light dark:bg-gray-900/50 p-4 transition-all hover:shadow-lg hover:-translate-y-1">
+<div class="aspect-square w-full overflow-hidden rounded-lg"><img class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="Geometric pattern NFT" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCS2aMc1vQfR54LcsGC7eT7qfYP6W-yKwM7-Et8HojZ-EcT-MjYPrymR6Cs4d3aaL0OiwrZ-q1MC2VvBwCd-op_5P7nob8PK1oYTJv4HJ5Isz9oGXLbG3M41YD6B7fKOOmTLIDtKsFsMefhzzCspFp0YO00_AJ8nrFLqTx82xUXeG88RfQjDyXMGyiSQcbuD13Sc0bKcRMDJiBCnHQzV0gFq7uhfLC4AFCtiH-GSlJEoPz2PDMbmB6E08r3fZwi2rF1e-2mnpgJORel"/></div>
+<div class="flex flex-col gap-1">
+<h3 class="text-gray-900 dark:text-white font-bold">Tessellation-9</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">by GeoNFT</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Mission/CTA Section -->
+<section class="flex flex-col items-center justify-center gap-8 text-center bg-gray-100 dark:bg-gray-900/50 py-16 px-4 md:py-20 md:px-10 rounded-xl">
+<div class="flex flex-col gap-4 items-center max-w-3xl">
+<h2 class="text-gray-900 dark:text-white tracking-tight text-3xl md:text-4xl font-bold leading-tight">
+                                    Join the Movement for a Regenerative Digital Economy
+                                </h2>
+<p class="text-gray-600 dark:text-gray-300 text-base font-normal leading-normal">
+                                    Discover how KUROMINT's circular model is solving the problem of digital waste and building a sustainable future for creators and collectors alike.
+                                </p>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-electric-blue text-white text-base font-bold leading-normal tracking-[0.015em] hover:opacity-90 transition-opacity">
+<span class="truncate">Read Our Mission</span>
+</button>
+</section>
+</main>
+<!-- Footer -->
+<footer class="flex flex-col gap-8 border-t border-gray-200 dark:border-gray-800 py-12">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="flex flex-col gap-4 col-span-1 md:col-span-2">
+<div class="flex items-center gap-2">
+<div class="size-6 text-primary">
+<svg fill="currentColor" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 18.4228L42 11.475V34.3663C42 34.7796 41.7457 35.1504 41.3601 35.2992L24 42V18.4228Z"></path>
+<path d="M24 8.18819L33.4123 11.574L24 15.2071L14.5877 11.574L24 8.18819ZM9 15.8487L21 20.4805V37.6263L9 32.9945V15.8487ZM27 37.6263V20.4805L39 15.8487V32.9945L27 37.6263ZM25.354 2.29885C24.4788 1.98402 23.5212 1.98402 22.646 2.29885L4.98454 8.65208C3.7939 9.08038 3 10.2097 3 11.475V34.3663C3 36.0196 4.01719 37.5026 5.55962 38.098L22.9197 44.7987C23.6149 45.0671 24.3851 45.0671 25.0803 44.7987L42.4404 38.098C43.9828 37.5026 45 36.0196 45 34.3663V11.475C45 10.2097 44.2061 9.08038 43.0155 8.65208L25.354 2.29885Z"></path>
+</svg>
+</div>
+<h2 class="text-gray-900 dark:text-white text-lg font-bold">KUROMINT</h2>
+</div>
+<p class="text-gray-600 dark:text-gray-400 text-sm max-w-sm">Building a regenerative digital economy for the next generation of creators and collectors.</p>
+</div>
+<div class="flex flex-col gap-4">
+<h3 class="font-bold text-gray-900 dark:text-white">Quick Links</h3>
+<div class="flex flex-col gap-2">
+<a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary" href="#">Marketplace</a>
+<a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary" href="#">How It Works</a>
+<a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary" href="#">Our Mission</a>
+</div>
+</div>
+<div class="flex flex-col gap-4">
+<h3 class="font-bold text-gray-900 dark:text-white">Join our newsletter</h3>
+<p class="text-sm text-gray-600 dark:text-gray-400">Get the latest updates and news from KUROMINT.</p>
+<form class="flex gap-2">
+<input class="flex-1 w-full rounded-md border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 text-sm placeholder:text-gray-500 focus:ring-primary focus:border-primary" placeholder="Enter your email" type="email"/>
+<button class="flex items-center justify-center rounded-md h-9 w-9 bg-primary text-gray-900 hover:opacity-90 transition-opacity" type="submit">
+<span class="material-symbols-outlined" style="font-size: 20px;">arrow_forward</span>
+</button>
+</form>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row justify-between items-center gap-4 pt-8 border-t border-gray-200 dark:border-gray-800">
+<p class="text-sm text-gray-500 dark:text-gray-400">© 2024 KUROMINT. All rights reserved.</p>
+<div class="flex items-center gap-4">
+<a class="text-sm text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary" href="#">Terms of Service</a>
+<a class="text-sm text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary" href="#">Privacy Policy</a>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</div>
+</div>
+</body></html>
